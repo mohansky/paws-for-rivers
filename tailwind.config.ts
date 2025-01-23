@@ -3,7 +3,11 @@ import type { Config } from "tailwindcss";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import colors from "tailwindcss/colors";
 import svgToDataUri from "mini-svg-data-uri";
-import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
+// import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
+const {
+	default: flattenColorPalette,
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  } = require("tailwindcss/lib/util/flattenColorPalette");
 
 export default {
     // darkMode: ["class"],
