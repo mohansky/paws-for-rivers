@@ -20,7 +20,7 @@ export const menu: {
   },
   {
     text: "Contact",
-    url: "/#Contact",
+    url: "/#contact",
     id: 4, 
   },
 ];
