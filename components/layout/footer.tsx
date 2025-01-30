@@ -21,8 +21,8 @@ export default function Footer() {
                 src="/images/pfrlogo.png"
                 alt="Paws for Rivers"
                 title="Paws for Rivers"
-                width="100"
-                height="100"
+                width="150"
+                height="150"
               />
             </div>
             <div>

@@ -42,8 +42,8 @@ export default function Menu() {
               alt="Paws for Rivers"
               title="Paws for Rivers"
               // className="bg-primary"
-              width="75"
-              height="75"
+              width="100"
+              height="100"
             />
           </Link>
           <HamburgerMenu />
