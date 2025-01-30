@@ -61,15 +61,15 @@ export default function Team() {
 const team = [
   {
     idx: 1,
-    name: "Emily Carter",
-    role: "Marketing",
-    image: "/images/team/team1.jpg",
+    name: "Neeti Mahesh",
+    role: "Founder",
+    image: "/images/team/neeti-mahesh.jpg",
   },
   {
     idx: 2,
-    name: "Sophia Rivera",
-    role: "Operations",
-    image: "/images/team/team2.jpg",
+    name: "Sayan Deb Sinha",
+    role: "Product & Growth Partner",
+    image: "/images/team/sayan-deb-sinha.jpg",
   },
   {
     idx: 3,
