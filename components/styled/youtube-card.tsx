@@ -39,7 +39,8 @@ export default function YouTubeCard({
             width={600}
             height={600}
           />
-          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b  from-gray-200/5 from-90% to-gray-350/80 dark:from-gray-700/5 dark:from-90%  dark:to-gray-950/80 to-10%" />
+          <div className="absolute top-0 left-0 w-full h-full bg-black/25" />
+          {/* <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b  from-gray-200/5 from-90% to-gray-350/80 dark:from-gray-700/5 dark:from-90%  dark:to-gray-950/80 to-10%" /> */}
           <button
             onClick={() => setShowVideo(true)}
             className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 rounded-full p-6"

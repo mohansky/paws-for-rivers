@@ -13,16 +13,16 @@ export default function Footer() {
     <>
       {/* <WaveDivider colorOption="lightbrown" /> */}
       <footer className="border-primary bg-lightred">
-        <Container  width="nomargin" className="w-full lg:max-w-6xl mx-auto">
-          <div className="py-20 px-20 flex flex-col md:flex-row space-y-5 justify-between">
+        <Container width="nomargin">
+          <div className="py-5 px-20 flex flex-col md:flex-row space-y-5 justify-between">
             <div>
               <Image
                 className="w-full h-auto mx-auto my-auto"
-                src="/images/pfrlogo.svg"
-                alt="{options.title}"
-                title="{options.title}"
-                width={100}
-                height={90}
+                src="/images/pfrlogo.png"
+                alt="Paws for Rivers"
+                title="Paws for Rivers"
+                width="100"
+                height="100"
               />
             </div>
             <div>
@@ -32,6 +32,9 @@ export default function Footer() {
               <Phone contact={contact} />
             </div>
             <div>
+              <Heading variant="cardtitle" size="md" className="mb-5">
+                Follow us
+              </Heading>
               <SocialLinks />
             </div>
           </div>

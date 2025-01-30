@@ -1,9 +1,10 @@
 import React from "react";
 import { Heading } from "../styled/heading";
 import { Paragraph } from "../styled/paragraph";
-import Image from "next/image";
+// import Image from "next/image";
 import { Container } from "../styled/container";
 import WaveDivider from "../styled/wave-divider";
+import { Icon } from "@iconify/react";
 
 export default function WhyThisPetFood() {
   return (
@@ -11,16 +12,20 @@ export default function WhyThisPetFood() {
       <WaveDivider colorOption="red" />
       <section id="whythispetfood" className="bg-red-50 py-20">
         <Container width="marginx">
-          <div className="flex flex-col md:flex-row items-center gap-4">
-            <Image
-              src="/images/cf.jpg"
-              alt="hero"
-              width={240}
-              height={240}
-              className="rounded-full"
+          <div className="relative flex flex-col md:flex-row items-center gap-4">
+            <Icon
+              icon="tabler:paw"
+              width="400"
+              height="400"
+              className="text-blue-950 hidden lg:block lg:min-w-64"
             />
-            <div>
-              {/* <div className="bg-lightred px-5 py-3 rounded-full w-fit"> */}
+            <Icon
+              icon="tabler:paw"
+              width="400"
+              height="400"
+              className="text-blue-950 absolute top-1 opacity-10 block lg:hidden"
+            />
+            <div> 
               <Heading size="md">Why this pet food</Heading>
               <Paragraph className="">
                 We aim to provide wholesome treats and supplements to take care

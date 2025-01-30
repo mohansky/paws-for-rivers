@@ -9,7 +9,7 @@ type ContactInfo = {
 
 export default function Phone({ contact }: { contact: ContactInfo[] }) {
   return (
-    <>
+    <div>
       <ul className="space-y-3">
         {contact.map((item, index) => (
           <li key={index} className="group">
@@ -20,6 +20,6 @@ export default function Phone({ contact }: { contact: ContactInfo[] }) {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 }

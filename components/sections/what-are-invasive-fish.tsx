@@ -1,20 +1,26 @@
 import React from "react";
 import { Heading } from "../styled/heading";
 import { Paragraph } from "../styled/paragraph";
-import Image from "next/image";
+// import Image from "next/image";
 import { Container } from "../styled/container";
+import { Icon } from "@iconify/react";
 
 export default function WhatAreInvasiveFish() {
   return (
-    <section id="whatareif" className="bg-lightbrown py-20">
+    <section id="whatareif" className="bg-lightbrown py-20 mt-20">
       <Container width="marginx">
-        <div className="flex flex-col md:flex-row items-center gap-4">
-          <Image
-            src="/images/piranha.png"
-            alt="hero"
-            width={240}
-            height={240}
-            className="rounded-full bg-blue-200 col-span-1"
+        <div className="flex flex-col md:flex-row items-center gap-8">
+          <Icon
+            icon="tabler:paw"
+            width="400"
+            height="400"
+            className="text-blue-950 hidden lg:block lg:min-w-64"
+          />
+          <Icon
+            icon="tabler:paw"
+            width="400"
+            height="400"
+            className="text-blue-950 absolute top-20 opacity-10 block lg:hidden"
           />
           <div className="col-span-3">
             <Heading size="md">What are Invasive Alien Species of Fish</Heading>

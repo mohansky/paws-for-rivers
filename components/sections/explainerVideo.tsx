@@ -7,7 +7,7 @@ export default function ExplainerVideo() {
       <YouTubeCard
         youtubeID="LgBiizGVe5Q"
         title="Riverside"
-        image="/images/riverside.jpg"
+        image="/images/video-tn.png"
       />
     </section>
   );

@@ -9,6 +9,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { menu } from "@/data/menu"; 
+import { cn } from "@/lib/utils";
 // import { ModeToggler } from "@/components/ui/mode-toggler";
 
 export default function Navbar() {
@@ -19,7 +20,7 @@ export default function Navbar() {
           <NavigationMenuItem key={index}>
             <Link href={item.url} legacyBehavior passHref>
               <NavigationMenuLink
-                className={navigationMenuTriggerStyle()}
+                className={cn("uppercase", navigationMenuTriggerStyle())}
                 title={item.text}
               >
                 {item.text}

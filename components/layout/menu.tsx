@@ -38,12 +38,12 @@ export default function Menu() {
         <div className=" flex justify-between py-1 max-w-8xl mx-auto px-4 md:px-8">
           <Link href="/" title="Paws for Rivers">
             <Image
-              src="/images/pfrlogo.svg"
-              alt="{options.title}"
-              title="{options.title}"
+              src="/images/pfrlogo.png"
+              alt="Paws for Rivers"
+              title="Paws for Rivers"
               // className="bg-primary"
-              width="80"
-              height="60"
+              width="75"
+              height="75"
             />
           </Link>
           <HamburgerMenu />

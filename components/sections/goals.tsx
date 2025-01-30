@@ -7,7 +7,7 @@ import WaveDivider from "../styled/wave-divider";
 export default function Goals() {
   return (
     <>
-    <WaveDivider colorOption="muted" />
+    <WaveDivider colorOption="muted" className="z-10" />
     <section id="goals" className="bg-muted">
       <Container className="pt-20 pb-36 " width="marginx">
         <Heading size="md" className="text-center mb-10">

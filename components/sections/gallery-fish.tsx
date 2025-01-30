@@ -6,12 +6,11 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 
 export function InfiniteMovingCardsDemo() {
   return (
-    <> 
+    <>
       <section id="gallery" className="py-20">
         {/* // <div className="h-[40rem] rounded-md flex flex-col antialiased bg-transparent dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden"> */}
-        <Heading size="xs" className="text-center mb-5">
-          Get to know some invasive fish species prohibited from being imported
-          into India.
+        <Heading size="md" className="text-center mb-5">
+          Get to know some invasive fish
         </Heading>
         <InfiniteMovingCards items={fish} direction="right" speed="slow" />
       </section>

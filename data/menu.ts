@@ -10,17 +10,17 @@ export const menu: {
   },
   {
     text: "About",
-    url: "/#whatareif",
+    url: "/about",
     id: 2, 
   },
   {
-    text: "SDGs",
+    text: "SDG",
     url: "/#goals",
     id: 3, 
   },
   {
-    text: "Team",
-    url: "/#team",
+    text: "Contact",
+    url: "/#Contact",
     id: 4, 
   },
 ];

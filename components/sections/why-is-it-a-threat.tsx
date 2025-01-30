@@ -1,9 +1,10 @@
 import React from "react";
 import { Heading } from "../styled/heading";
 import { Paragraph } from "../styled/paragraph";
-import Image from "next/image";
+// import Image from "next/image";
 import { Container } from "../styled/container";
 import WaveDivider from "../styled/wave-divider";
+import { Icon } from "@iconify/react";
 
 export default function WhyIsItaThreat() {
   return (
@@ -11,7 +12,7 @@ export default function WhyIsItaThreat() {
       <WaveDivider colorOption="teal" />
       <section id="whyitathreat" className="bg-teal-100 py-20">
         <Container width="marginx">
-          <div className="flex flex-col md:flex-row items-center gap-4">
+          <div className="relative flex flex-col md:flex-row items-center gap-4">
             <div>
               <Heading size="md">Why is it a threat</Heading>
               <Paragraph className="mb-10">
@@ -29,12 +30,17 @@ export default function WhyIsItaThreat() {
                 population explosion).
               </Paragraph>
             </div>
-            <Image
-              src="/images/riverside.jpg"
-              alt="hero"
-              width={240}
-              height={240}
-              className="rounded-full"
+            <Icon
+              icon="tabler:paw"
+              width="400"
+              height="400"
+              className="text-blue-950 hidden lg:block lg:min-w-64"
+            />
+            <Icon
+              icon="tabler:paw"
+              width="400"
+              height="400"
+              className="text-blue-950 absolute top-20 opacity-10 block lg:hidden"
             />
           </div>
         </Container>

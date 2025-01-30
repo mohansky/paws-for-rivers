@@ -75,3 +75,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* 
+.text-sec::before {
+  content: "";
+  position: absolute;
+  background: url('/wavess.png');
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: top;
+  width: 100%;
+  height: 250px;
+  top: -24%;
+  left: 0;
+  /* z-index: 10; */
+/* } */
