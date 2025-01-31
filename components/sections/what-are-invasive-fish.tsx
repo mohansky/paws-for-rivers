@@ -23,7 +23,7 @@ export default function WhatAreInvasiveFish() {
             className="text-blue-950 absolute top-20 opacity-10 block lg:hidden"
           />
           <div className="col-span-3">
-            <Heading size="md">What are Invasive Alien Species of Fish</Heading>
+            <Heading size="md">What are invasive species of Fish</Heading>
             <Paragraph className="mb-10">
               Quite simply put, they are fish that have been introduced
               illegally or through the aquarium trade and through aquaculture

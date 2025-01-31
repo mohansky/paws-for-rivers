@@ -18,7 +18,7 @@ export default function Footer() {
             <div>
               <Image
                 className="w-full h-auto mx-auto my-auto"
-                src="/images/pfrlogo.png"
+                src="/images/pfrlogo.svg"
                 alt="Paws for Rivers"
                 title="Paws for Rivers"
                 width="150"

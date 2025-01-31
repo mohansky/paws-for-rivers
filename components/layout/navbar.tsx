@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { menu } from "@/data/menu"; 
 import { cn } from "@/lib/utils";
-// import { ModeToggler } from "@/components/ui/mode-toggler";
+// import { ModeToggler } from "./mode-toggler";
 
 export default function Navbar() {
   return (

@@ -24,7 +24,7 @@ export default function Source() {
           </Heading>
         </div>
       </div>
-      <WaveDivider className="z-40" colorOption="lightbrown" /> 
+      <WaveDivider className="z-40" colorOption="white" /> 
     </>
   );
 }

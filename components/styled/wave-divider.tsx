@@ -5,10 +5,11 @@ export default function WaveDivider({
   colorOption = "teal",
   className,
 }: {
-  colorOption?: "teal" | "red" | "lightbrown" | "lightred" | "muted";
+  colorOption?: "teal" | "red" | "lightbrown" | "lightred" | "muted" | "white";
   className?: string;
 }) {
   const colors = {
+    white: "#ffffff", // White
     teal: "#ccfbf1", // Teal
     red: "#fef2f2", // Red
     lightbrown: "#ebe6db", // Lightrown

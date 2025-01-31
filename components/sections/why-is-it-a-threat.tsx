@@ -15,16 +15,21 @@ export default function WhyIsItaThreat() {
           <div className="relative flex flex-col md:flex-row items-center gap-4">
             <div>
               <Heading size="md">Why is it a threat</Heading>
-              <Paragraph className="mb-10">
+              <Paragraph className="mb-5">
                 India boasts a rich and diverse range of freshwater fish
                 species, due to its varied climatic zones, river systems, and
                 unique landscapes. The country&apos;s freshwater fish diversity
                 is not only significant in terms of species count but also in
-                the ecological and economic value they hold. India is home to
-                over 900 species of freshwater fishes, many of which are endemic
-                to the subcontinent, meaning they are found nowhere else in the
-                world. Invasive fish, with established reproductive populations
-                in Rivers, threaten the existence of native species, which are
+                the ecological and economic value they hold.
+              </Paragraph>
+              <Paragraph className="mb-5">
+                India is home to over <b> 900 species of freshwater fishes,</b>{" "}
+                many of which are <b>endemic</b> to the subcontinent, meaning{" "}
+                <b>they are found nowhere else in the world.</b>
+              </Paragraph>
+              <Paragraph className="mb-5">
+                Invasive fish, with established reproductive populations in
+                Rivers, threaten the existence of native species, which are
                 already under the risk of extinction, due to various human
                 activities. (create an animated video here to visually show
                 population explosion).

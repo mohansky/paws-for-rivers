@@ -11,11 +11,12 @@ import {
 import Image from "next/image";
 import { Paragraph } from "../styled/paragraph";
 import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function PetTreats() {
   return (
     <>
-      <section id="treats" className="bg-lightbrown py-20">
+      <section id="treats" className="py-20">
         <Container width="marginx">
           <div className="mx-auto flex flex-col items-center mb-10">
             <Heading size="md">Pet Treats</Heading>
@@ -23,8 +24,9 @@ export default function PetTreats() {
               Our products are sustainably sourced from artisanal fishermen. Get
               in touch to preorder now.
             </Paragraph>
-
-            <Button className="uppercase font-semibold ">Preorder</Button>
+            <Link href="/#contact">
+              <Button className="uppercase font-semibold">Preorder</Button>
+            </Link>
           </div>
 
           <div className="grid place-content-center md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto">

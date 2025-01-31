@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-// import { Nunito, Nunito_Sans } from "next/font/google";
-// import { Geist, Geist_Mono, Nunito, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import Menu from "@/components/layout/menu";
 import Footer from "@/components/layout/footer";
+// import { ThemeProvider } from "@/components/theme-provider"
+// import { Nunito, Nunito_Sans } from "next/font/google";
+// import { Geist, Geist_Mono, Nunito, Nunito_Sans } from "next/font/google";
 // import { GridSmallBackgroundDemo } from "@/components/ui/background";
 
 // Nunito & Nunito Sans
@@ -60,9 +61,16 @@ export default function RootLayout({
       className={`${nunito.variable} ${nunitoSans.variable} antialiased overflow-x-hidden`}
     >
       <body>
+      {/* <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem
+            disableTransitionOnChange
+          > */}
         <Menu />
         {children}
         <Footer />
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );

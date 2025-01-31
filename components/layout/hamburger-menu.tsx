@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { menu } from "@/data/menu";
 import { cn } from "@/lib/utils";
-// import { ModeToggler } from "@/components/ui/mode-toggler";
+// import { ModeToggler } from "./mode-toggler";
 
 export default function HamburgerMenu() {
   return (
@@ -30,7 +30,6 @@ export default function HamburgerMenu() {
           <SheetTitle className="sr-only">Menu Button</SheetTitle>
           <SheetContent aria-describedby={undefined} className="w-full">
             {/* <ModeToggler /> */}
-
             <NavigationMenu className="flex flex-col justify-center items-center  my-20 mx-auto">
               <NavigationMenuList className=" flex-col gap-5 w-full">
                 {menu.map((item, index) => (

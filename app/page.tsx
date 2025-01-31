@@ -1,6 +1,6 @@
 // import { InfiniteMovingCardsDemo } from "@/components/sections/gallery-fish";
 // import Goals from "@/components/sections/goals";
-import Fave from "@/components/sections/fave";
+// import Fave from "@/components/sections/fave";
 import Goals from "@/components/sections/goals";
 import Hero from "@/components/sections/hero";
 import PetTreats from "@/components/sections/pet-treats";
@@ -19,7 +19,7 @@ export default function Home() {
       <Hero />
       <Source />
       <PetTreats />
-      <Fave />
+      {/* <Fave /> */}
       <Goals />
       <Socials />
     </main>

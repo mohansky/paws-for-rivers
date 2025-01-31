@@ -38,7 +38,7 @@ export default function Menu() {
         <div className=" flex justify-between py-1 max-w-8xl mx-auto px-4 md:px-8">
           <Link href="/" title="Paws for Rivers">
             <Image
-              src="/images/pfrlogo.png"
+              src="/images/pfrlogo.svg"
               alt="Paws for Rivers"
               title="Paws for Rivers"
               // className="bg-primary"
