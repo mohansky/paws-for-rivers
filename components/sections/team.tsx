@@ -71,10 +71,10 @@ const team = [
     role: "Product & Growth Partner",
     image: "/images/team/sayan-deb-sinha.jpg",
   },
-  {
-    idx: 3,
-    name: "James Peterson",
-    role: "Sales & Distribution",
-    image: "/images/team/team3.jpg",
-  },
+  // {
+  //   idx: 3,
+  //   name: "James Peterson",
+  //   role: "Sales & Distribution",
+  //   image: "/images/team/team3.jpg",
+  // },
 ];
