@@ -28,7 +28,7 @@ export default function Team() {
             make a difference.
           </Paragraph>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto">
+          <div className="grid md:grid-cols-2 gap-10 mx-auto">
             {team.map((team, idx) => (
               <Card
                 key={idx}
