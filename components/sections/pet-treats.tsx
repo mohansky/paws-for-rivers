@@ -29,7 +29,7 @@ export default function PetTreats() {
             </Link>
           </div>
 
-          <div className="grid place-content-center md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto">
+          <div className="grid place-content-center md:grid-cols-2 gap-10 mx-auto">
             {treats.map((treat) => (
               <Card
                 key={treat.idx}
@@ -64,20 +64,20 @@ export default function PetTreats() {
 const treats = [
   {
     idx: 1,
-    name: "African Catfish Strips",
+    name: "Tilapia Bites",
     origin: "African Catfish",
     image: "/images/treats/cat-treat.jpg",
   },
   {
     idx: 2,
-    name: "Alligator Gar Chips",
+    name: "Catfish Feast",
     origin: "South America",
     image: "/images/treats/dog-treat.jpg",
   },
-  {
-    idx: 3,
-    name: "Nile Tilapia Sticks",
-    origin: "Africa",
-    image: "/images/treats/cat-treat-2.jpg",
-  },
+  // {
+  //   idx: 3,
+  //   name: "Nile Tilapia Sticks",
+  //   origin: "Africa",
+  //   image: "/images/treats/cat-treat-2.jpg",
+  // },
 ];

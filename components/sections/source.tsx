@@ -18,7 +18,7 @@ export default function Source() {
             pet will love.
           </Paragraph> */}
           <Heading size="sm" className="text-center text-balance max-w-5xl mx-auto">
-            We work directly with small-scale fishermen in South India to turn
+            We work directly with small-scale Artisanal fishermen in South India to turn
             wild-caught, invasive fish into delectably healthy treats that your
             pet will love.
           </Heading>
